@@ -1,3 +1,4 @@
+# Your Solution
 version: '3'
 services:
 
@@ -10,8 +11,8 @@ services:
     ports:
       - "8081:8081"
     environment:
-      - PORT=8088
-      - DATABASE_URL=postgresql://arslan_moosa_db_7_2_part3_user:fsF9O0hukPG4umN40LEQpq3eqGml62Jk@dpg-crm61md6l47c738uaq10-a.oregon-postgres.render.com/arslan_moosa_db_7_2_part3
+      - PORT=8081
+      - DATABASE_URL=postgresql://arslan_moosa_db_7_2_user:uf42Htca6KYlMG0MJURuNmCbWmRiQ7s0@dpg-crt9apd2ng1s73buduig-a.oregon-postgres.render.com/arslan_moosa_db_7_2
     restart: "no"
 
   inventory-management:
@@ -23,6 +24,6 @@ services:
     ports:
      - "8082:8082"
     environment:
-      - PORT=8089
-      - DATABASE_URL=postgresql://arslan_moosa_db_7_2_part3_user:fsF9O0hukPG4umN40LEQpq3eqGml62Jk@dpg-crm61md6l47c738uaq10-a.oregon-postgres.render.com/arslan_moosa_db_7_2_part3
+      - PORT=8082
+      - DATABASE_URL=postgresql://arslan_moosa_db_7_2_user:uf42Htca6KYlMG0MJURuNmCbWmRiQ7s0@dpg-crt9apd2ng1s73buduig-a.oregon-postgres.render.com/arslan_moosa_db_7_2
     restart: "no"
